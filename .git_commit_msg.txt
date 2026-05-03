@@ -1,0 +1,7 @@
+Initial commit: Zombie Survival Unity project
+
+- Unity 6000.4.5f1 with HDRP
+- Packages: ProBuilder, Terrain Tools, AI Navigation, Input System, Multiplayer Center
+- Map generation tools: ProceduralStructures, Cigen, ProceduralCity, TTG, CityGenerator-Unity
+- Game docs: GDD, MapMakingGuide, MapLayoutGuide
+- Workflow documentation
