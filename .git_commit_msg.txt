@@ -1,6 +1,5 @@
-Fix CS0234: remove broken asset-store-tools package
+Remove Cigen (OpenCV+Unity unsafe code + URP/HDRP conflict)
 
-The RayTracingShader API was removed in Unity 6000.
-Removed:
-- Assets/CityGenerator-Unity/.../com.unity.asset-store-tools/ (folder)
-- Reference in CityGenerator2D/Packages/packages-lock.json
+Cigen uses OpenCV+Unity which requires unsafe code and was built for
+URP, causing ~100 CS0227 errors on our HDRP project. Also removes the
+SplineContainer dependency that couldn't be resolved.
