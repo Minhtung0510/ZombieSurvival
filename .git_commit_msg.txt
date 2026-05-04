@@ -1,5 +1,1 @@
-Remove Cigen (OpenCV+Unity unsafe code + URP/HDRP conflict)
-
-Cigen uses OpenCV+Unity which requires unsafe code and was built for
-URP, causing ~100 CS0227 errors on our HDRP project. Also removes the
-SplineContainer dependency that couldn't be resolved.
+Enable AllowUnsafeCode in Player Settings for OpenCV/Cigen compatibility
