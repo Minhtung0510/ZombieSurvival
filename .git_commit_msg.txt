@@ -1,1 +1,6 @@
-Add Map Tools Usage Guide
+Fix CS0234: remove broken asset-store-tools package
+
+The RayTracingShader API was removed in Unity 6000.
+Removed:
+- Assets/CityGenerator-Unity/.../com.unity.asset-store-tools/ (folder)
+- Reference in CityGenerator2D/Packages/packages-lock.json
