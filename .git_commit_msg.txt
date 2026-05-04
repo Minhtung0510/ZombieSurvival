@@ -1,1 +1,6 @@
-Enable AllowUnsafeCode in Player Settings for OpenCV/Cigen compatibility
+Remove CityGenerator-Unity (150+ CS1503/CS1061/CS0029 errors)
+
+Conflicting types: GraphModel.Edge vs Unity.2D.Tilemap.Extras Edge classes.
+Both GraphModel.Node and Edge types clash with Unity's built-in 2D packages
+imported as dependencies, causing ~150 compile errors across BlockDivision,
+RoadGeneration, BlockGeneration, and Services scripts.
